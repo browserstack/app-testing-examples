@@ -10,7 +10,7 @@ caps["build"] = "App Testing"
 caps["platformName"] = "android"
 caps["device"] = "Google Nexus 6"
 caps["realMobile"] = true
-caps["app"] = "https://browserstack-user-apps.s3.amazonaws.com/d01a65c98d976f89a8f76279aeb30e1f3a314dc5b3979c35d30b42f62ae7c988/d01a65c98d976f89a8f76279aeb30e1f3a314dc5b3979c35d30b42f62ae7c988.apk?AWSAccessKeyId=AKIAJII2FX4REVVMGTAA&Expires=1473318772&Signature=ZZ5%2B2sluXyTy1LO77%2FJNPinPbH0%3D"
+caps["app"] = "https://github.com/browserstack/app-testing-examples/raw/master/app-debug.apk"
 
 appium_driver = Appium::Driver.new({
   caps: JSON.parse(caps.to_json),
