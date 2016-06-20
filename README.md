@@ -30,4 +30,5 @@ mvn compile exec:java -Dexec.mainClass="AppTesting"
 ```
 ### csharp
 ```
+Open solution in Visual Studio and run the project.
 ```
