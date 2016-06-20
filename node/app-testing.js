@@ -15,9 +15,7 @@ var capabilities = {
 
 var driver = wd.promiseChainRemote({
   host: 'hub-cloud.browserstack.com',
-  port: 80,
-  username: process.env.BROWSERSTACK_USER,
-  password: process.env.BROWSERSTACK_ACCESS_KEY
+  port: 80
 });
 
 driver
