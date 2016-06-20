@@ -1,0 +1,20 @@
+{
+  "name": "app-testing-examples",
+  "version": "0.1.0",
+  "description": "App Tesing Examples for BrowserStack",
+  "scripts": {
+    "test": "NODE_ENV=testing node app-testing.js"
+  },
+  "keywords": [
+    "BrowserStack",
+    "selenium",
+    "testing",
+    "appium"
+  ],
+  "author": "BrowserStack",
+  "license": "MIT",
+  "dependencies": {
+    "selenium-webdriver": "^2.41.0",
+    "wd": "^0.3.11"
+  }
+}

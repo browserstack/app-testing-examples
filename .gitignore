@@ -1,2 +1,5 @@
 **.png
 **.pyc
+php/vendor
+php/composer.phar
+node/node_modules
