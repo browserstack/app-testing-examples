@@ -21,7 +21,7 @@ python app-testing.py
 ```
 cd node
 npm install
-node app-testing.js
+npm test
 ```
 ### java
 ```
