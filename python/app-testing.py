@@ -36,4 +36,4 @@ touch.tap(add_btn).perform()
 driver.get_screenshot_as_file("test.png")
 print(sample_label.text)
 
-driver.quit
+driver.quit()
