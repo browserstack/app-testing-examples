@@ -1,0 +1,10 @@
+csharp/.vs/
+csharp/packages/
+csharp/AppTesting/bin
+csharp/AppTesting/obj
+**.pyc
+node/node_modules
+php/composer.phar
+php/vendor
+java/target
+**.png
