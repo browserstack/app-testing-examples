@@ -1,5 +1,6 @@
 task :default => :test
 
 task :test do
-  system "ruby app-testing.rb"
+  system "ruby app-testing-android.rb"
+  system "ruby app-testing-ios.rb"
 end
