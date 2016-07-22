@@ -7,8 +7,8 @@ desired_cap = {
   'platformName': 'android',
   'device': 'Google Nexus 6',
   'realMobile': True,
-  'app': 'https://github.com/browserstack/app-testing-examples/raw/master/app-debug.apk',
-  'build': 'App Testing',
+  'app': os.environ['ANDROID_APP_URL'],
+  'build': 'App Testing Android',
   'name': 'sample python',
   'browserstack.debug': True
 }
