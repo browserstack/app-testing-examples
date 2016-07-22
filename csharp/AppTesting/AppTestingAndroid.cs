@@ -6,7 +6,7 @@ using OpenQA.Selenium.Appium.Android;
 
 namespace AppiumTest
 {
-  class AppTesting
+  class AppTestingAndroid
   {
     static void Main()
     {
@@ -14,13 +14,13 @@ namespace AppiumTest
       DesiredCapabilities capability = DesiredCapabilities.Android();
       capability.SetCapability("browserstack.user", Environment.GetEnvironmentVariable("BROWSERSTACK_USER"));
       capability.SetCapability("browserstack.key", Environment.GetEnvironmentVariable("BROWSERSTACK_ACCESS_KEY"));
-      capability.SetCapability("build", "App Testing");
+      capability.SetCapability("build", "App Testing Android");
       capability.SetCapability("name", "sample csharp");
       capability.SetCapability("browserstack.debug", true);
       capability.SetCapability("platform", "android");
       capability.SetCapability("device", "Google Nexus 6");
       capability.SetCapability("realMobile", true);
-      capability.SetCapability("app", "https://github.com/browserstack/app-testing-examples/raw/master/app-debug.apk");
+      capability.SetCapability("app", Environment.GetEnvironmentVariable("ANDROID_APP_URL"));
 
       driver = new AndroidDriver<AndroidElement>(
         new Uri("http://hub-cloud.browserstack.com/wd/hub/"), capability

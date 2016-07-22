@@ -63,7 +63,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AppTesting.cs" />
+    <Compile Include="AppTestingAndroid.cs" />
+    <Compile Include="AppTestingIOS.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
