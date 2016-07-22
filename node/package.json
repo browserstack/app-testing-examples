@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "App Tesing Examples for BrowserStack",
   "scripts": {
-    "test": "NODE_ENV=testing node app-testing.js"
+    "test": "NODE_ENV=testing node app-testing-android.js && NODE_ENV=testing node app-testing-ios.js"
   },
   "keywords": [
     "BrowserStack",

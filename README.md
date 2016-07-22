@@ -17,22 +17,28 @@ cd ruby
 bundle install
 bundle exec rake test
 ```
+
 ### python
 ```
 cd python
-python app-testing.py
+python app-testing-android.py
+python app-testing-ios.py
 ```
+
 ### node js
 ```
 cd node
 npm install
 npm test
 ```
+
 ### java
 ```
+
 cd java
 mvn compile exec:java -Dexec.mainClass="AppTesting"
 ```
+
 ### csharp
 ```
 Open solution in Visual Studio and run the project.
