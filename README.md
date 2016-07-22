@@ -36,7 +36,8 @@ npm test
 ```
 
 cd java
-mvn compile exec:java -Dexec.mainClass="AppTesting"
+mvn compile exec:java -Dexec.mainClass="AppTestingAndroid"
+mvn compile exec:java -Dexec.mainClass="AppTestingIOS"
 ```
 
 ### csharp

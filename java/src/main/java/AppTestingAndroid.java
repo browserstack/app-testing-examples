@@ -8,7 +8,7 @@ import io.appium.java_client.android.AndroidDriver;
 import java.net.URL;
 import java.util.Set;
 
-public class AppTesting {
+public class AppTestingAndroid {
   public static final String USERNAME = System.getenv("BROWSERSTACK_USER");
   public static final String AUTOMATE_KEY = System.getenv("BROWSERSTACK_ACCESS_KEY");
   public static final String URL = "http://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
@@ -17,12 +17,12 @@ public class AppTesting {
     
     DesiredCapabilities caps = new DesiredCapabilities();
     caps.setCapability("browserstack.debug", "true");
-    caps.setCapability("build", "App Testing");
+    caps.setCapability("build", "App Testing Android");
     caps.setCapability("name", "sample java");
     caps.setCapability("platformName", "android");
     caps.setCapability("device", "Google Nexus 6");
     caps.setCapability("realMobile", true);
-    caps.setCapability("app", "https://github.com/browserstack/app-testing-examples/raw/master/app-debug.apk");
+    caps.setCapability("app", System.getenv("ANDROID_APP_URL"));
 
     AndroidDriver driver = new AndroidDriver(new URL(URL), caps);
 
