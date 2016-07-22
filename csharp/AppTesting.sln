@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppTesting", "AppTesting\AppTesting.csproj", "{04568EF4-B767-461F-9D47-58ECD94774DD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppTestingAndroid", "AppTestingAndroid\AppTestingAndroid.csproj", "{04568EF4-B767-461F-9D47-58ECD94774DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppTestingIOS", "AppTestingIOS\AppTestingIOS.csproj", "{31C6CEEA-733E-4696-99C1-8A88ED719EA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{04568EF4-B767-461F-9D47-58ECD94774DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04568EF4-B767-461F-9D47-58ECD94774DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04568EF4-B767-461F-9D47-58ECD94774DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31C6CEEA-733E-4696-99C1-8A88ED719EA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31C6CEEA-733E-4696-99C1-8A88ED719EA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31C6CEEA-733E-4696-99C1-8A88ED719EA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31C6CEEA-733E-4696-99C1-8A88ED719EA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -12,7 +12,7 @@ namespace AppiumTest
     {
       AndroidDriver<AndroidElement> driver;
       DesiredCapabilities capability = DesiredCapabilities.Android();
-      capability.SetCapability("browserstack.user", Environment.GetEnvironmentVariable("BROWSERSTACK_USER"));
+      capability.SetCapability("browserstack.user", Environment.GetEnvironmentVariable("BROWSERSTACK_USERNAME"));
       capability.SetCapability("browserstack.key", Environment.GetEnvironmentVariable("BROWSERSTACK_ACCESS_KEY"));
       capability.SetCapability("build", "App Testing Android");
       capability.SetCapability("name", "sample csharp");
