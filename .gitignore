@@ -1,7 +1,7 @@
 csharp/.vs/
 csharp/packages/
-csharp/AppTesting/bin
-csharp/AppTesting/obj
+csharp/**/bin
+csharp/**/obj
 **.pyc
 node/node_modules
 php/composer.phar
